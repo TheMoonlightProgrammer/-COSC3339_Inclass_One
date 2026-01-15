@@ -1,6 +1,6 @@
-# YOUR NAME HERE
-# YOUR SECTION HERE
-# DATE OF EDITING HERE
+# Lindsey Soltis
+# 2
+# 1/15/25
 
 """
 ASSIGNMENT: INTRODUCTION TO MERGING
@@ -21,7 +21,7 @@ def calculate_hypotenuse(side_a, side_b):
 def count_words(sentence):
     if len(sentence) == 0:
         return 0
-    words = sentence.split(',')  
+    words = sentence.split(' ')  #splitting on the spaces actually separates each word in the sentence so they can be totaled correctly
     return len(words)
 
 
