@@ -1,6 +1,6 @@
 # Lindsey Soltis
 # 2
-# 1/15/25
+# 1/15/2026
 
 """
 ASSIGNMENT: INTRODUCTION TO MERGING
@@ -14,7 +14,7 @@ import math
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
 def calculate_hypotenuse(side_a, side_b):
-    result = side_a + side_b  
+    result = math.sqrt(math.pow(side_a, 2) + math.pow(side_b, 2)) #Pythagrian's theorum a^2 + b^2 = c^2 gets the hypotenuse
     return result
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
