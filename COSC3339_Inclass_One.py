@@ -70,15 +70,15 @@ def curve_scores(scores):
 # For scenario five fix the typos
 def validateInput(text_value):
 
-    valud_imput = True 
+    validInput = True 
     
     if text_value is None:
-        valud_imput = False
+        validInput = False
     
     if text_value == "":
-        valud_imput = False
+        validInput = False
         
-    return valud_imput
+    return validInput
     
 def process_user_data():
     _validate_imput("hello")
